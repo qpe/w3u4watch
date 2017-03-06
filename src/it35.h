@@ -1,0 +1,82 @@
+#pragma once
+
+/*
+//
+// Broadcast Driver Architecture ‚Å’è‹`‚³‚ê‚Ä‚¢‚é Property set / Method set
+//
+static const GUID KSPROPSETID_BdaFrequencyFilter = { 0x71985f47, 0x1ca1, 0x11d3,{ 0x9c, 0xc8, 0x0, 0xc0, 0x4f, 0x79, 0x71, 0xe0 } };
+
+enum KSPROPERTY_BDA_FREQUENCY_FILTER {
+KSPROPERTY_BDA_RF_TUNER_FREQUENCY = 0,				// get/put
+KSPROPERTY_BDA_RF_TUNER_POLARITY,					// get/put
+KSPROPERTY_BDA_RF_TUNER_RANGE,						// get/put
+KSPROPERTY_BDA_RF_TUNER_TRANSPONDER,				// not supported
+KSPROPERTY_BDA_RF_TUNER_BANDWIDTH,					// get/put
+KSPROPERTY_BDA_RF_TUNER_FREQUENCY_MULTIPLIER,		// get/put
+KSPROPERTY_BDA_RF_TUNER_CAPS,						// not supported
+KSPROPERTY_BDA_RF_TUNER_SCAN_STATUS,				// not supported
+KSPROPERTY_BDA_RF_TUNER_STANDARD,					// not supported
+KSPROPERTY_BDA_RF_TUNER_STANDARD_MODE,				// not supported
+};
+
+static const GUID KSPROPSETID_BdaSignalStats = { 0x1347d106, 0xcf3a, 0x428a,{ 0xa5, 0xcb, 0xac, 0xd, 0x9a, 0x2a, 0x43, 0x38 } };
+
+enum KSPROPERTY_BDA_SIGNAL_STATS {
+KSPROPERTY_BDA_SIGNAL_STRENGTH = 0,					// get only
+KSPROPERTY_BDA_SIGNAL_QUALITY,						// get only
+KSPROPERTY_BDA_SIGNAL_PRESENT,						// get only
+KSPROPERTY_BDA_SIGNAL_LOCKED,						// get only
+KSPROPERTY_BDA_SAMPLE_TIME,							// get only
+};
+
+static const GUID KSPROPSETID_BdaDigitalDemodulator = { 0xef30f379, 0x985b, 0x4d10,{ 0xb6, 0x40, 0xa7, 0x9d, 0x5e, 0x4, 0xe1, 0xe0 } };
+
+enum KSPROPERTY_BDA_DIGITAL_DEMODULATOR {
+KSPROPERTY_BDA_MODULATION_TYPE = 0,					// get/put
+KSPROPERTY_BDA_INNER_FEC_TYPE,						// get/put
+KSPROPERTY_BDA_INNER_FEC_RATE,						// get/put
+KSPROPERTY_BDA_OUTER_FEC_TYPE,						// get/put
+KSPROPERTY_BDA_OUTER_FEC_RATE,						// get/put
+KSPROPERTY_BDA_SYMBOL_RATE,							// get/put
+KSPROPERTY_BDA_SPECTRAL_INVERSION,					// get/put
+KSPROPERTY_BDA_GUARD_INTERVAL,						// not supported
+KSPROPERTY_BDA_TRANSMISSION_MODE,					// not supported
+KSPROPERTY_BDA_ROLL_OFF,							// not supported
+KSPROPERTY_BDA_PILOT,								// not supported
+KSPROPERTY_BDA_SIGNALTIMEOUTS,						// not supported
+};
+
+static const GUID KSPROPSETID_BdaLNBInfo = { 0x992cf102, 0x49f9, 0x4719,{ 0xa6, 0x64, 0xc4, 0xf2, 0x3e, 0x24, 0x8, 0xf4 } };
+
+enum KSPROPERTY_BDA_LNB_INFO {
+KSPROPERTY_BDA_LNB_LOF_LOW_BAND = 0,				// get/put
+KSPROPERTY_BDA_LNB_LOF_HIGH_BAND,					// get/put
+KSPROPERTY_BDA_LNB_SWITCH_FREQUENCY,				// get/put
+};
+
+static const GUID KSPROPSETID_BdaPIDFilter = { 0xd0a67d65, 0x8df, 0x4fec,{ 0x85, 0x33, 0xe5, 0xb5, 0x50, 0x41, 0xb, 0x85 } };
+
+enum KSPROPERTY_BDA_PIDFILTER {
+KSPROPERTY_BDA_PIDFILTER_MAP_PIDS = 0,				// put only
+KSPROPERTY_BDA_PIDFILTER_UNMAP_PIDS,				// put only
+KSPROPERTY_BDA_PIDFILTER_LIST_PIDS,					// put pnly
+};
+
+static const GUID KSMETHODSETID_BdaChangeSync = { 0xfd0a5af3, 0xb41d, 0x11d2,{ 0x9c, 0x95, 0x0, 0xc0, 0x4f, 0x79, 0x71, 0xe0 } };
+
+enum KSMETHOD_BDA_CHANGE_SYNC {
+KSMETHOD_BDA_START_CHANGES = 0,
+KSMETHOD_BDA_CHECK_CHANGES,
+KSMETHOD_BDA_COMMIT_CHANGES,
+KSMETHOD_BDA_GET_CHANGE_STATE,
+};
+
+static const GUID KSMETHODSETID_BdaDeviceConfiguration = { 0x71985f45, 0x1ca1, 0x11d3,{ 0x9c, 0xc8, 0x0, 0xc0, 0x4f, 0x79, 0x71, 0xe0 } };
+
+enum KSMETHOD_BDA_DEVICE_CONFIGURATION {
+KSMETHOD_BDA_CREATE_PIN_FACTORY = 0,
+KSMETHOD_BDA_DELETE_PIN_FACTORY,
+KSMETHOD_BDA_CREATE_TOPOLOGY,
+};
+*/
+
